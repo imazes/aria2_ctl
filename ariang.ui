@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ariangClass</class>
+ <widget class="QMainWindow" name="ariangClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ariang_ctl</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ariang.qrc">
+    <normaloff>:/ariang/Resources/tileicon.png</normaloff>:/ariang/Resources/tileicon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWebEngineView" name="webEngineView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="url">
+     <url>
+      <string>qrc:/ariang/GeneratedFiles/AriaNg-0.5.0/index.html</string>
+     </url>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ariang.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/ariang">
+        <file>Resources/tileicon.png</file>
+    </qresource>
+</RCC>
